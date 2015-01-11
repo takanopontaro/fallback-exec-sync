@@ -1,0 +1,38 @@
+{
+  "name": "fallback-exec-sync",
+  "version": "0.0.1",
+  "description": "Fall back to shelljs if execSync cannot be installed.",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "node node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takanopontaro/node-fallback-exec-sync"
+  },
+  "keywords": [
+    "execSync",
+    "shelljs"
+  ],
+  "author": "takanopontaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takanopontaro/node-fallback-exec-sync/issues"
+  },
+  "homepage": "https://github.com/takanopontaro/node-fallback-exec-sync",
+  "optionalDependencies": {
+    "execSync": "^1.0.2"
+  },
+  "dependencies": {
+    "shelljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-este-watch": "^0.1.18",
+    "grunt-exec": "^0.4.6",
+    "jasmine": "^2.1.1",
+    "source-map-support": "^0.2.8"
+  }
+}
